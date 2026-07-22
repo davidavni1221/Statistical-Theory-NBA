@@ -29,3 +29,19 @@ To run the analysis locally, ensure you have Python 3 installed along with the f
 You can install the required packages using:
 ```bash
 pip install pandas numpy scipy statsmodels scikit-learn matplotlib seaborn
+
+## How to Reproduce the Analysis
+
+### Option 1: Running in Google Colab (Recommended)
+1. Open [Google Colab](https://colab.research.google.com/).
+2. Select **File > Upload notebook** and upload the `NBA_Analysis_Project.ipynb` file from this repository.
+3. The notebook is configured to automatically fetch the dataset via URL.
+4. Click **Runtime > Run all** to execute the analysis and generate all statistical tables and plots.
+
+### Option 2: Running Locally
+1. Clone this repository to your local machine:
+   git clone https://github.com/davidavni1221/Statistical-Theory-NBA.git
+
+2. Navigate to the project directory.
+3. Open `NBA_Analysis_Project.ipynb` in your preferred IDE (e.g., PyCharm, VS Code, or Jupyter Notebook).
+4. Run the cells sequentially to reproduce the results.
